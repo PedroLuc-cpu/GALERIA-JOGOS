@@ -57,7 +57,7 @@ margin-left: 30px;
 }
 
 .col-4>figure{
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(53, 52, 52, 0.267);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.192);
 }
 figcaption{
@@ -78,5 +78,11 @@ figcaption{
     row-gap: 10px;
     margin: 30px;
 }
-  
+/* cor de fundo seçao 1 */
+  .col-4 {
+      background-color: rgba(0, 0, 0, 0.808);
+  }
+
+ 
+ 
  
