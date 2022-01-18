@@ -48,6 +48,7 @@ margin-left: 30px;
 
 
 .col-4{
+    padding: 10px;
     margin-top: 30px;
     justify-content: center;
     display: grid;
@@ -76,13 +77,41 @@ figcaption{
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
-    margin: 30px;
+    margin: 50px 0 50px 0;
 }
 /* cor de fundo seçao 1 */
   .col-4 {
-      background-color: rgba(0, 0, 0, 0.808);
+    background-color: rgba(17, 17, 17, 0.712);
   }
 
+ .god{
+     text-align: center;
+     color: aliceblue;
+     font-size: 1.9em;
+     letter-spacing: 20px;
+ }
+ /* secão 3 */
+
+ .row-3{
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+    column-gap: 10px;
+    row-gap: 10px;
+ }
+ .row-3{
+    background-color: rgba(17, 17, 17, 0.712);
+ }
  
- 
- 
+ /* imagem 700px */
+
+ .row-3-god{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 50px 0 50px 0;
+ }
